@@ -36,14 +36,14 @@
                 <li class="nav-item">
                 <a class="nav-link" href="home">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                 <a class="nav-link" href="about.blade.php">About Us</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="doctors.blade.php">Doctors</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="contact.blade.php">Contact</a>
+                <li class="nav-item active">
+                <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <li class="nav-item">
                 <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>
@@ -57,27 +57,4 @@
         </nav>
     </header>
 
-        <div class="page-section pb-0">
-            <div class="container">
-                <div class="row align-items-center">
-                <div class="col-lg-6 py-3 wow fadeInUp">
-                    <h1>Selamat Datang di Pusat Kesehatan<br></h1>
-                    <p class="text-grey mb-4">Tempat dimana kesehatan Anda menjadi 
-                        prioritas utama. Kami dengan tulus menyambut
-                        kedatangan Anda ke rumah sakit. Kami yang 
-                        bertekad memberikan perawatan yang 
-                        Terpercaya dan Berkualitas.</p>
-                    <a href="about.html" class="btn btn-primary">Learn More</a>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
-                    <div class="img-place custom-img-1">
-                    <img src="../assets/img/3.jpg" alt="">
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div> <!-- .bg-light -->
-        </div> <!-- .bg-light -->
-
-        </html>      
-
+    </html>   

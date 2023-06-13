@@ -28,3 +28,15 @@ Route::get('/about.blade.php', function () {
 Route::get('/doctors.blade.php', function () {
     return view('doctors');
 });
+
+Route::get('/contact.blade.php', function () {
+    return view('contact');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/registrasi', function () {
+    return view('registrasi');
+});

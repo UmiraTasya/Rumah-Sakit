@@ -14,10 +14,6 @@
 
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
-
-    <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
-
     <link rel="stylesheet" href="../assets/css/theme.css">
     </head>
     <body>
@@ -29,7 +25,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #27374D">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="{{ URL :: to('asset/image/1.jpg') }}" alt="" width="30" height="30"><span class="" style="color: #F2F7A1;"> Mod</span>-Health</a>
+            <a class="navbar-brand" href="#"><img src="{{ URL :: to('assets/img/1.jpg') }}" alt="" width="30" height="30"><span class="" style="color: #F2F7A1;"> Mod</span>-Health</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -67,6 +63,35 @@
         <div class="col">
             <div class="card ml-5" style="width: 18rem;">
                 <img src="../../assets/img/doctors/4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+        <div class="card ml-5" style="width: 18rem;">
+            <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="card ml-5" style="width: 18rem;">
+                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="row align-items-center mt-3">
+        <div class="col">
+            <div class="card ml-5" style="width: 18rem;">
+                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
