@@ -19,6 +19,7 @@
     <style>
         body{
             background-image: url('/assets/img/background.jpg');
+            background-size: 100%;
         }
     </style>
     </head>
@@ -40,16 +41,16 @@
             <div class="collapse navbar-collapse" id="navbarSupport">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="index.blade.php">Home</a>
+                <a class="nav-link" href="index">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about.blade.php">About Us</a>
+                <a class="nav-link" href="about">About Us</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="doctors.blade.php">Doctors</a>
+                <a class="nav-link" href="doctors">Doctors</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.blade.php">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <li class="nav-item">
                 <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>
@@ -132,38 +133,99 @@
         {{-- Bagian Dokter --}}
 
         <h1 class="text-center mb-5 mt-4 wow fadeInUp">Our Doctors</h1>
-        <div class="container text-center">
+        <div class="container text-center mb-4">
             <div class="row align-items-center">
             <div class="col">
                 <div class="card ml-5" style="width: 18rem;">
-                    <img src="../../assets/img/doctors/shindy.jpg" class="card-img-top" alt="...">
+                    <img src="../../assets/img/doctors/shindy.jpg" class="card-img-top" alt="..." width="200" height="300">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Dr. Shindy Putri</h5>
+                    <p class="card-text">Spesialis Kecantikan</p>
                     </div>
                 </div>
             </div>
             <div class="col">
             <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
+                <img src="../../assets/img/doctors/10.jpg" class="card-img-top" alt="..." width="200" height="300">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Dr. Al Ghifari Barak</h5>
+                <p class="card-text">Spesialis Gigi</p>
                 </div>
             </div>
             </div>
             <div class="col">
                 <div class="card ml-5" style="width: 18rem;">
-                    <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
+                    <img src="../../assets/img/doctors/9.jpg" class="card-img-top" alt="..." width="200" height="300">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Dr. Reza Gladys</h5>
+                    <p class="card-text">Spesialis Jantung</p>
                     </div>
                 </div> 
             </div>
         </div>
         </div>
 
+        {{-- Bagian Contact --}}
+        <div class="container-fluid" style="background-color: #27374D; color: white;">
+            <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+                </div>
+        
+                <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+                </div>
+        
+                <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+                </div>
+        
+                <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </div>
+            </footer>
+        </div>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
         
 

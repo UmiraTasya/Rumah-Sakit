@@ -37,13 +37,13 @@
                 <a class="nav-link" href="home">Home</a>
                 </li>
                 <li class="nav-item active">
-                <a class="nav-link" href="about.blade.php">About Us</a>
+                <a class="nav-link" href="about">About Us</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="doctors.blade.php">Doctors</a>
+                <a class="nav-link" href="doctors">Doctors</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.blade.php">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <li class="nav-item">
                 <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>

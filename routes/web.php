@@ -15,21 +15,21 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/home', [IndexController::class,'home']);
 // Route::get('/about', [IndexController::class,'about']);
 
-Route::get('/about.blade.php', function () {
+Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/doctors.blade.php', function () {
+Route::get('/doctors', function () {
     return view('doctors');
 });
 
-Route::get('/contact.blade.php', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
 

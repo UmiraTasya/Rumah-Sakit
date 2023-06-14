@@ -15,6 +15,13 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
     <link rel="stylesheet" href="../assets/css/theme.css">
+
+    <style>
+        body{
+            background-image: url('/assets/img/background.jpg');
+            background-size: 100%;
+        }
+    </style>
     </head>
     <body>
 
@@ -37,13 +44,13 @@
                 <a class="nav-link" href="home">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about.blade.php">About Us</a>
+                <a class="nav-link" href="about">About Us</a>
                 </li>
                 <li class="nav-item active">
-                <a class="nav-link" href="doctors.blade.php">Doctors</a>
+                <a class="nav-link" href="doctors">Doctors</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.blade.php">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
                 </li>
                 <li class="nav-item">
                 <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>
@@ -58,65 +65,67 @@
     </header>
 
     <h1 class="text-center mb-5 mt-4 wow fadeInUp">Our Doctors</h1>
-    <div class="container text-center">
-        <div class="row align-items-center">
-        <div class="col">
-            <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="container text-center mb-4">
+            <div class="row align-items-center">
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/shindy.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. Shindy Putri</h5>
+                    <p class="card-text">Spesialis Kecantikan</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-        <div class="card ml-5" style="width: 18rem;">
-            <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-        </div>
-        <div class="col">
+            <div class="col">
             <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
+                <img src="../../assets/img/doctors/10.jpg" class="card-img-top" alt="..." width="200" height="300">
                 <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div> 
-        </div>
-    </div>
-    <div class="row align-items-center mt-3">
-        <div class="col">
-            <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Dr. Al Ghifari Barak</h5>
+                <p class="card-text">Spesialis Gigi</p>
                 </div>
             </div>
-        </div>
-        <div class="col">
-        <div class="card ml-5" style="width: 18rem;">
-            <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/9.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. Reza Gladys</h5>
+                    <p class="card-text">Spesialis Jantung</p>
+                    </div>
+                </div> 
             </div>
         </div>
         </div>
-        <div class="col">
-            <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="container text-center mb-4">
+            <div class="row align-items-center">
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/shindy.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. Shindy Putri</h5>
+                    <p class="card-text">Spesialis Kecantikan</p>
+                    </div>
                 </div>
-            </div> 
+            </div>
+            <div class="col">
+            <div class="card ml-5" style="width: 18rem;">
+                <img src="../../assets/img/doctors/10.jpg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                <h5 class="card-title">Dr. Al Ghifari Barak</h5>
+                <p class="card-text">Spesialis Gigi</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/9.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. Reza Gladys</h5>
+                    <p class="card-text">Spesialis Jantung</p>
+                    </div>
+                </div> 
+            </div>
         </div>
-    </div>
-    </div>
+        </div>
 
     </html> 
