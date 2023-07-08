@@ -15,10 +15,10 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('auth.login');
 });
 
-Route::get('/home', [IndexController::class,'home']);
+Route::get('/beranda', [IndexController::class,'beranda']);
 // Route::get('/about', [IndexController::class,'about']);
 
 Route::get('/about', function () {
@@ -27,6 +27,10 @@ Route::get('/about', function () {
 
 Route::get('/doctors', function () {
     return view('doctors');
+});
+
+Route::get('/appointment', function () {
+    return view('appointment');
 });
 
 Route::get('/contact', function () {
@@ -40,3 +44,27 @@ Route::get('/login', function () {
 Route::get('/registrasi', function () {
     return view('registrasi');
 });
+
+Route::get('/homeadmin', function () {
+    return view('homeadmin');
+});
+
+Route::get('/addemails', function () {
+    return view('addemails');
+});
+
+Route::get('/appointmentsadmin', function () {
+    return view('appointmentsadmin');
+});
+
+Route::get('/add-doctors', function () {
+    return view('add-doctors');
+});
+
+Route::get('/logout', function () {
+    return view('auth.login');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('beranda');

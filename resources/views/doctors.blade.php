@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarSupport">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="home">Home</a>
+                <a class="nav-link" href="beranda">Beranda</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="about">About Us</a>
@@ -50,14 +50,11 @@
                 <a class="nav-link" href="doctors">Doctors</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="appointment">Appointment</a>
+                    </li>
+                <li class="nav-item">
                 <a class="nav-link" href="contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>
-                </li>
-                <li class="nav-item overlay-dark">
-                    <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Register</a>
-                    </li>
             </ul>
             </div> <!-- .navbar-collapse -->
         </div> <!-- .container -->
@@ -100,28 +97,60 @@
             <div class="row align-items-center">
             <div class="col">
                 <div class="card ml-5" style="width: 18rem;">
-                    <img src="../../assets/img/doctors/shindy.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <img src="../../assets/img/doctors/doctor_1.jpg" class="card-img-top" alt="..." width="200" height="300">
                     <div class="card-body">
-                    <h5 class="card-title">Dr. Shindy Putri</h5>
-                    <p class="card-text">Spesialis Kecantikan</p>
+                    <h5 class="card-title">Dr. Siska Refina</h5>
+                    <p class="card-text">Spesialis Neurology</p>
                     </div>
                 </div>
             </div>
             <div class="col">
             <div class="card ml-5" style="width: 18rem;">
-                <img src="../../assets/img/doctors/10.jpg" class="card-img-top" alt="..." width="200" height="300">
+                <img src="../../assets/img/doctors/doctor_2.jpg" class="card-img-top" alt="..." width="200" height="300">
                 <div class="card-body">
-                <h5 class="card-title">Dr. Al Ghifari Barak</h5>
-                <p class="card-text">Spesialis Gigi</p>
+                <h5 class="card-title">Dr. Alexander Barrack</h5>
+                <p class="card-text">Spesialis Orthopaidhics</p>
                 </div>
             </div>
             </div>
             <div class="col">
                 <div class="card ml-5" style="width: 18rem;">
-                    <img src="../../assets/img/doctors/9.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <img src="../../assets/img/doctors/doctor_3.jpg" class="card-img-top" alt="..." width="200" height="300">
                     <div class="card-body">
-                    <h5 class="card-title">Dr. Reza Gladys</h5>
-                    <p class="card-text">Spesialis Jantung</p>
+                    <h5 class="card-title">Dr. Manda Pertiwi</h5>
+                    <p class="card-text">Spesialis Anak</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        </div>
+
+        <div class="container text-center mb-4">
+            <div class="row align-items-center">
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/6.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. El Rumi Pratama</h5>
+                    <p class="card-text">Spesialis Gizi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            <div class="card ml-5" style="width: 18rem;">
+                <img src="../../assets/img/doctors/8.jpg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                <h5 class="card-title">Dr. Bella Putri Nasution</h5>
+                <p class="card-text">Spesialis Kandungan</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="../../assets/img/doctors/1.jpg" class="card-img-top" alt="..." width="200" height="300">
+                    <div class="card-body">
+                    <h5 class="card-title">Dr. Brian Firmansyah Putra</h5>
+                    <p class="card-text">Spesialis Ginjal</p>
                     </div>
                 </div> 
             </div>

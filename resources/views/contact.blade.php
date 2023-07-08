@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarSupport">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="home">Home</a>
+                <a class="nav-link" href="beranda">Beranda</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="about">About Us</a>
@@ -42,19 +42,66 @@
                 <li class="nav-item">
                 <a class="nav-link" href="doctors">Doctors</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="appointment">Appointment</a>
+                    </li>
                 <li class="nav-item active">
                 <a class="nav-link" href="contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Login</a>
-                </li>
-                <li class="nav-item overlay-dark">
-                    <a class="btn ml-lg-3" style="background-color: #F2F7A1" href="#">Register</a>
-                    </li>
             </ul>
             </div> <!-- .navbar-collapse -->
         </div> <!-- .container -->
         </nav>
     </header>
 
-    </html>   
+    <!-- Bagian Contact -->
+    <div class="container-fluid" style="background-color: #324a6d; color: white;">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Alamat Rumah Sakit</h5>
+                    <p>Jl. Banda Aceh-Medan Km.6 <br> Buket Rata Lhokseumawe</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Nomor Telepon</h5>
+                    <p><i class="mai-call-outline"></i> +1 123 456 7890</p>
+                    
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <h5>Sosial Media</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="mai-mail-outline"></i> Modhealth@gmail.com</a></li>
+                        <li><a href="#"><i class="mai-logo-instagram"></i> Mod_Health_Hospitalt</a></li>
+                        <li><a href="#"><i class="mai-logo-facebook"></i> Mod Healt</a></li>
+                        <li><a href="#"><i class="mai-logo-youtube"></i> Mod Healt Hospital</a></li>
+                        <li><a href="#"><i class="mai-globe-outline"></i> Mod Health Hospital Update</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h5>Kritik dan Saran</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="kritik-saran" class="form-label">Tulis Kritik dan Saran Anda mengenai Sistem Manajemen Rumah Sakit Kami</label>
+                            <textarea class="form-control" id="kritik-saran" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Kirim</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Umira Tasya, Sistem Manajemen Rumah Sakit.</p>
+                <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

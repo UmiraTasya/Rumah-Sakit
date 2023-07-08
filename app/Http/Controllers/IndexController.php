@@ -7,9 +7,9 @@ namespace App\Http\Controllers;
     {
     return view('about');
     }
-    public function home()
+    public function beranda()
     {
-    return view('home');
+    return view('beranda');
     }
     }
 
