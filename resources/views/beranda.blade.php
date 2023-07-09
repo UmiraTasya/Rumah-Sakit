@@ -55,6 +55,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="btn ml-lg-3 " style="background-color: #F2F7A1;" href="addemails">Sidebar Admin</a>
+                </li>
                 <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
@@ -67,10 +70,6 @@
                         </ul>
                     </li>
             </ul>
-
-            <li class="nav-item">
-                <a class="btn ml-lg-3 " style="background-color: #F2F7A1;" href="addemails">Sidebar Admin</a>
-            </li>
             
             </div> <!-- .navbar-collapse -->
         </div> <!-- .container -->
@@ -79,72 +78,52 @@
 
     <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/2.jpg);">
         <div class="hero-section">
-        <div class="container text-center wow zoomIn">
-            <span class="subhead">Mari Jadikan Hidup Anda Bahagia</span>
-            <h1 class="display-4">Hidup Sehat</h1>
-            <a href="appointment" class="btn btn-primary">Let's Consult</a>
+            <div class="container text-center wow zoomIn">
+                <span class="subhead">Mari Jadikan Hidup Anda Bahagia</span>
+                <h1 class="display-4">Hidup Sehat</h1>
+                <a href="appointment" class="btn btn-primary">Let's Consult</a>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .page-hero {
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        @media (max-width: 767px) {
+            .page-hero {
+                min-height: 50vh;
+            }
+        }
+    </style>
+    
+
+{{-- about --}}
+
+<div class="page-section pb-0">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-lg-6 py-3 wow fadeInUp">
+            <h1>Selamat Datang di Pusat Kesehatan<br></h1>
+            <p class="text-grey mb-4">Tempat dimana kesehatan Anda menjadi 
+                prioritas utama. Kami dengan tulus menyambut
+                kedatangan Anda ke rumah sakit. Kami yang 
+                bertekad memberikan perawatan yang 
+                Terpercaya dan Berkualitas.</p>
+            <a href="doctors" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+            <div class="img-place custom-img-1">
+            <img src="../assets/img/3.jpg" alt="">
+            </div>
         </div>
         </div>
     </div>
-
-
-    <div class="bg-light">
-        <div class="page-section py-3 mt-md-n5 custom-index">
-        <div class="container">
-            <div class="row justify-content-center">
-            <div class="col-md-4 py-3 py-md-0">
-                    <div class="card-service wow fadeInUp">
-                    <div class="circle-shape bg-secondary text-white">
-                        <span class="mai-chatbubbles-outline"></span>
-                    </div>
-                    <p><span>Chat</span> with a doctor</p>
-                    </div>
-                </a>
-            
-            </div>
-                <div class="col-md-4 py-3 py-md-0">
-                    <div class="card-service wow fadeInUp">
-                        <div class="circle-shape bg-primary text-white">
-                        <span class="mai-shield-checkmark"></span>
-                        </div>
-                        <p><span>One</span>-Health Protection</p>
-                    </div>
-                    </a>
-                </div>
-            
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card-service wow fadeInUp">
-                <div class="circle-shape bg-accent text-white">
-                    <span class="mai-basket"></span>
-                </div>
-                <p><span>One</span>-Health Pharmacy</p>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div> <!-- .page-section -->
-
-        <div class="page-section pb-0">
-            <div class="container">
-                <div class="row align-items-center">
-                <div class="col-lg-6 py-3 wow fadeInUp">
-                    <h1>Selamat Datang di Pusat Kesehatan<br></h1>
-                    <p class="text-grey mb-4">Tempat dimana kesehatan Anda menjadi 
-                        prioritas utama. Kami dengan tulus menyambut
-                        kedatangan Anda ke rumah sakit. Kami yang 
-                        bertekad memberikan perawatan yang 
-                        Terpercaya dan Berkualitas.</p>
-                    <a href="doctors" class="btn btn-primary">Learn More</a>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
-                    <div class="img-place custom-img-1">
-                    <img src="../assets/img/3.jpg" alt="">
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div> <!-- .bg-light -->
-        </div> <!-- .bg-light -->
+    </div> <!-- .bg-light -->
+</div> <!-- .bg-light -->
 
 
         {{-- Bagian Dokter --}}
