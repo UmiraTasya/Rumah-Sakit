@@ -1,3 +1,10 @@
+<style>
+    body {
+        background-image: url(../assets/img/gambar.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 @extends('layouts.app')
 
 @section('content')
